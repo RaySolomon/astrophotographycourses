@@ -1,0 +1,127 @@
+.header {
+  color: #087019;
+  font-family: Arial, Helvetica, sans-serif, Trebuchet, MS;
+  font-size: 26px;
+}
+
+.maintxt {
+  color: #000000;
+  font-family: Trebuchet, MS, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.maintxtsmall {
+  color: #74120e;
+  font-family: Trebuchet, MS, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.maintxt2 {
+  color: #0033FF;
+  font-family: Trebuchet, MS, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#headertxt {
+  font-size: 72px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 4px 4px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* menu line style for three-bar menu */
+.menuline {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.middlebkgrd {
+    top: 0;
+    background-image: url('images/APC_Middle_Bkgd.jpg');
+/*    background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;*/
+    background-repeat: no-repeat;
+}

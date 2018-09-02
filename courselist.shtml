@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Course List</title>
+    <link href="astrocourses.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="tswtabs.css" />
+    <script src="./apc_menu.js"></script>
+  </head>
+  <body>
+    <table align="center" height="100%" width="945" cellspacing="0" cellpadding="0"
+      border="0">
+      <tbody>
+        <tr width="945" style="background: url(images/APC_Top_Banner.jpg) top left repeat scroll;"
+          align="center" valign="top">
+          <script src="menu.js"></script> </tr>
+        <tr class="middlebkgrd">
+          <td width="945">
+            <blockquote>
+              <div align="left"><span class="maintxt"> We have teamed up with
+                  some leading astro-imaging figures to run a series of courses
+                  which will be held at Tooley's Boatyard right by the canal in
+                  Banbury.
+                  <p></p>
+                  These astronomy workshops are designed for the experienced as
+                  well as the beginner photographer. The courses aim to inspire
+                  both practicing and armchair astronomers. We will guide you
+                  through what equipment is needed, how to capture and then
+                  process the data. For full workshop details please click on
+                  the course name below and for more information about the
+                  speaker, please click on their name.
+                  <p></p>
+                  The course season runs from September to August.<br />
+                </span></div>
+              <p></p>
+            </blockquote>
+            <blockquote>
+              <table>
+                <tbody>
+                  <tr>
+                    <td><span class="maintxt">Date</span></td>
+                    <td><span class="maintxt">Course</span></td>
+                    <td><span class="maintxt">With</span></td>
+                    <td><span class="maintxt">Time</span></td>
+                    <td><span class="maintxt">Level</span></td>
+                  </tr>
+                  <!--#include virtual="coursetable.html" -->
+                </tbody>
+              </table>
+              <p> </p>
+              <p> </p>
+              <blockquote>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td><img src="images/smallstar.png" width="30" /></td>
+                      <td> Beginner, suitable for anyone of any experience</td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/smallstar.png" width="20" /><img src="images/smallstar.png"
+                          width="20" /></td>
+                      <td> Intermediate, suitable for someone who has previous
+                        experience of imaging and wants to beef up their skills.</td>
+                    </tr>
+                    <tr>
+                      <td width="80"><img src="images/smallstar.png" width="20" /><img
+                          src="images/smallstar.png" width="20" /><img src="images/smallstar.png"
+                          width="20" /></td>
+                      <td> Advanced,suitable for someone with a few years
+                        experience who wants to learn new skills or branch out
+                        into a new field of imaging</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </blockquote>
+              <blockquote><span class="maintxtsmall">Course end-time is
+                  approximate as all courses include tea breaks (tea provided)
+                  and all-day courses include a break for lunch. Lunch is not
+                  provided but there are many options available in the adjacent
+                  Castle Quay shopping centre and Banbury town centre a couple
+                  of minutes walk away. You're also welcome to bring a packed
+                  lunch to eat on premises or in the sunshine by the canal. </span>
+              </blockquote>
+              <p> </p>
+              <p> </p>
+              <p><a href="https://www.ticketsource.co.uk/astrophotographycourses"
+                  target="_new"><img src="images/book.gif" alt="book" height="50"
+                    width="345" border="0" /></a> <a href="https://www.ticketsource.co.uk/date/418634">
+                  <img src="images/voucher.jpg" alt="voucher" border="0" /></a>
+              </p>
+              <div class="maintxt">Past Courses</div>
+              <table>
+                <!--#include virtual="pastcoursetable.html" -->
+              </table>
+            </blockquote>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><img src="images/APC_Bottom_Banner.jpg" alt="APC Bottom Banner"
+              border="0" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
